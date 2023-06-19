@@ -28,3 +28,7 @@ print(bas1c_number)  # Output: '000'
 base10_number = convert_to_base10('000')
 print(base10_number)  # Output: 100
 ```
+
+## license
+licensed under the Public Resource License v2
+[https://github.com/andylehti/bas1c/LICENSE](https://github.com/andylehti/bas1c/blob/main/LICENSE)
