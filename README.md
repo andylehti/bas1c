@@ -14,19 +14,15 @@ To use the functions in your Python code:
 
 1. Call the desired function(s) with the appropriate arguments.
 2. Bas1c to Base10 must be a string since it deals with leading 0s.
-3.
 Here's an example:
 
 ```python
-from code import convert_to_bas1c, convert_to_base10
 
-# Convert base-10 number to Bas1c
-bas1c_number = convert_to_bas1c(100)
-print(bas1c_number)  # Output: '000'
+# decimal does not have to be input as a string, but the compact form does:
+convert_to_bas1c(100) #000
+convert_to_base10("000") #100
 
-# Convert Bas1c number to base-10
-base10_number = convert_to_base10('000')
-print(base10_number)  # Output: 100
+# authored by Andrew Lehti
 ```
 
 ## license
